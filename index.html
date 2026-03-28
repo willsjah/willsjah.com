@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>William Sjahrial</title>
+  <meta name="description" content="25 years developer. 6 countries. 2 exits. Now mentoring the next generation of builders.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-photo">
+        <img src="assets/will.jpg" alt="William Sjahrial" onerror="this.style.display='none'">
+        <span class="photo-placeholder">WS</span>
+      </div>
+      <div class="hero-text">
+        <h1>William Sjahrial</h1>
+        <p class="tagline">25 years developer. 6 countries. 2 exits.<br>Now mentoring the next generation of builders.</p>
+        <nav class="hero-links">
+          <a href="https://linkedin.com/in/willsjah" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://instagram.com/willsjah" target="_blank" rel="noopener">Instagram</a>
+          <a href="mailto:will@willsjah.com">Email</a>
+        </nav>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- BIO -->
+    <section class="bio">
+      <p>I started writing code in 1999 and haven't really stopped. Along the way I built apps in Tokyo, ran an agency in Jakarta, co-founded a startup during a pandemic, and ended up getting acquired twice. I'm back in Jakarta now, mentoring at Apple Developer Academy and sharing what I've learned with the next generation.</p>
+    </section>
+
+    <hr class="divider">
+
+    <!-- NOW -->
+    <section>
+      <p class="section-label">Now</p>
+      <ul class="now-list">
+        <li>Building a Korean speaking practice app</li>
+        <li>Mentoring at Apple Developer Academy, Jakarta</li>
+        <li>Developing talks and speaking at iOS + AI meetups</li>
+      </ul>
+    </section>
+
+    <hr class="divider">
+
+    <!-- WORK: CURRENT -->
+    <section>
+      <p class="section-label">Current work</p>
+      <div class="work-grid">
+
+        <div class="work-card" onclick="openModal('korean')">
+          <div class="card-img">
+            <img src="assets/work/korean-app.jpg" alt="Korean Speaking App" onerror="this.parentElement.classList.add('no-img')">
+          </div>
+          <div class="card-body">
+            <p class="card-title">Korean Speaking App</p>
+            <p class="card-sub">iOS · in progress</p>
+            <span class="badge">Active</span>
+          </div>
+        </div>
+
+        <div class="work-card" onclick="openModal('academy')">
+          <div class="card-img">
+            <img src="assets/work/academy.jpg" alt="Apple Developer Academy" onerror="this.parentElement.classList.add('no-img')">
+          </div>
+          <div class="card-body">
+            <p class="card-title">Apple Developer Academy</p>
+            <p class="card-sub">Mentor · Jakarta</p>
+          </div>
+        </div>
+
+        <div class="work-card" onclick="openModal('meetup')">
+          <div class="card-img">
+            <img src="assets/work/meetup.jpg" alt="Jakarta iOS + AI Meetup" onerror="this.parentElement.classList.add('no-img')">
+          </div>
+          <div class="card-body">
+            <p class="card-title">Jakarta iOS + AI Meetup</p>
+            <p class="card-sub">Organizer · since 2013</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- WORK: PAST HIGHLIGHTS -->
+    <section style="margin-top: 2rem;">
+      <p class="section-label">Past highlights</p>
+      <div class="work-grid">
+
+        <div class="work-card" onclick="openModal('port')">
+          <div class="card-img">
+            <img src="assets/work/port.jpg" alt="Port Remote" onerror="this.parentElement.classList.add('no-img')">
+          </div>
+          <div class="card-body">
+            <p class="card-title">Port Remote</p>
+            <p class="card-sub">Startup · acquired 2025</p>
+          </div>
+        </div>
+
+        <div class="work-card" onclick="openModal('mirai')">
+          <div class="card-img">
+            <img src="assets/work/mirai.jpg" alt="Mirai Technologies" onerror="this.parentElement.classList.add('no-img')">
+          </div>
+          <div class="card-body">
+            <p class="card-title">Mirai Technologies</p>
+            <p class="card-sub">Agency · acquired 2020</p>
+          </div>
+        </div>
+
+        <div class="work-card" onclick="openModal('istart')">
+          <div class="card-img">
+            <img src="assets/work/istart.jpg" alt="iStart Language Series" onerror="this.parentElement.classList.add('no-img')">
+          </div>
+          <div class="card-body">
+            <p class="card-title">iStart Language Series</p>
+            <p class="card-sub">Indie iOS · Apple-featured</p>
+          </div>
+        </div>
+
+        <div class="work-card" onclick="openModal('bowlingual')">
+          <div class="card-img">
+            <img src="assets/work/bowlingual.jpg" alt="Bowlingual" onerror="this.parentElement.classList.add('no-img')">
+          </div>
+          <div class="card-body">
+            <p class="card-title">Bowlingual</p>
+            <p class="card-sub">Takara Tomy · Tokyo</p>
+          </div>
+        </div>
+
+        <div class="work-card" onclick="openModal('kanji')">
+          <div class="card-img">
+            <img src="assets/work/kanji.jpg" alt="Remembering the Kanji" onerror="this.parentElement.classList.add('no-img')">
+          </div>
+          <div class="card-body">
+            <p class="card-title">Remembering the Kanji</p>
+            <p class="card-sub">Nanzan Institute collab</p>
+          </div>
+        </div>
+
+        <div class="work-card" onclick="openModal('miffy')">
+          <div class="card-img">
+            <img src="assets/work/miffy.jpg" alt="Miffy Moment" onerror="this.parentElement.classList.add('no-img')">
+          </div>
+          <div class="card-body">
+            <p class="card-title">Miffy Moment</p>
+            <p class="card-sub">Personal · LEGO robot</p>
+          </div>
+        </div>
+
+      </div>
+      <a class="see-all" href="projects.html">See all past projects →</a>
+    </section>
+
+    <hr class="divider">
+
+    <!-- SPEAKING -->
+    <section>
+      <p class="section-label">Speaking</p>
+      <div class="talk-list">
+
+        <div class="talk-item">
+          <p class="talk-title">How to get lucky in your career</p>
+          <p class="talk-desc">Building a full-stack career for freedom — proof, network, capital, and the courage to leave your comfort zone.</p>
+        </div>
+
+        <div class="talk-item">
+          <p class="talk-title">Building with AI: an iOS developer's workflow</p>
+          <p class="talk-desc">How AI tools are changing the way apps get built, from idea to App Store.</p>
+        </div>
+
+        <div class="talk-item">
+          <p class="talk-title">The Quiet Revolution</p>
+          <p class="talk-desc">Apple's on-device AI and what it means for the next generation of iOS apps.</p>
+        </div>
+
+      </div>
+
+      <div class="speaking-meta">
+        <span class="meta-tag">Apple Developer Academy</span>
+        <span class="meta-tag">Jakarta iOS + AI Meetup</span>
+        <span class="meta-tag">BCA Bank</span>
+        <span class="meta-tag">Universitas Multimedia Nusantara</span>
+        <span class="meta-tag">Skystar Ventures</span>
+      </div>
+
+      <div class="video-placeholder">
+        <p>Talk recording coming soon</p>
+      </div>
+
+      <a class="cta-btn" href="mailto:will@willsjah.com?subject=Speaking invitation">Invite me to speak →</a>
+    </section>
+
+    <hr class="divider">
+
+    <!-- LIFE -->
+    <section>
+      <p class="section-label">Around the world</p>
+      <p class="section-intro">Building apps took me places I never planned. Here are some of the colors.</p>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <div class="tl-dot"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="timeline-content">
+            <p class="tl-period">1997 – 2001</p>
+            <p class="tl-place">Atlanta, USA</p>
+            <p class="tl-note">Georgia Tech. Computer Science. First time living far from home.</p>
+            <div class="photo-strip">
+              <div class="photo-thumb"><img src="assets/life/atlanta-1.jpg" alt="" onerror="this.parentElement.classList.add('no-img')"></div>
+              <div class="photo-thumb"><img src="assets/life/atlanta-2.jpg" alt="" onerror="this.parentElement.classList.add('no-img')"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <div class="tl-dot"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="timeline-content">
+            <p class="tl-period">2001 – 2014</p>
+            <p class="tl-place">Tokyo, Japan</p>
+            <p class="tl-note">13 years. Salaryman, then entrepreneur. The city that shaped how I work.</p>
+            <div class="photo-strip">
+              <div class="photo-thumb"><img src="assets/life/tokyo-1.jpg" alt="" onerror="this.parentElement.classList.add('no-img')"></div>
+              <div class="photo-thumb"><img src="assets/life/tokyo-2.jpg" alt="" onerror="this.parentElement.classList.add('no-img')"></div>
+              <div class="photo-thumb"><img src="assets/life/tokyo-3.jpg" alt="" onerror="this.parentElement.classList.add('no-img')"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <div class="tl-dot"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="timeline-content">
+            <p class="tl-period">2014 – 2020</p>
+            <p class="tl-place">Jakarta, Indonesia</p>
+            <p class="tl-note">Back home. Built an agency. Grew a team. Got acquired.</p>
+            <div class="photo-strip">
+              <div class="photo-thumb"><img src="assets/life/jakarta-1.jpg" alt="" onerror="this.parentElement.classList.add('no-img')"></div>
+              <div class="photo-thumb"><img src="assets/life/jakarta-2.jpg" alt="" onerror="this.parentElement.classList.add('no-img')"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <div class="tl-dot"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="timeline-content">
+            <p class="tl-period">2020</p>
+            <p class="tl-place">Singapore</p>
+            <p class="tl-note">Antler. Built a startup from scratch in 4 months.</p>
+            <div class="photo-strip">
+              <div class="photo-thumb"><img src="assets/life/singapore-1.jpg" alt="" onerror="this.parentElement.classList.add('no-img')"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <div class="tl-dot"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="timeline-content">
+            <p class="tl-period">2020 – 2025</p>
+            <p class="tl-place">Taiwan → South Korea</p>
+            <p class="tl-note">Port Remote. Built during Covid. Pivoted. Acquired.</p>
+            <div class="photo-strip">
+              <div class="photo-thumb"><img src="assets/life/taiwan-1.jpg" alt="" onerror="this.parentElement.classList.add('no-img')"></div>
+              <div class="photo-thumb"><img src="assets/life/korea-1.jpg" alt="" onerror="this.parentElement.classList.add('no-img')"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <div class="tl-dot"></div>
+          </div>
+          <div class="timeline-content">
+            <p class="tl-period">2025 – present</p>
+            <p class="tl-place">Jakarta, Indonesia</p>
+            <p class="tl-note">Home again. Mentoring. Building. Figuring out what's next.</p>
+            <div class="photo-strip">
+              <div class="photo-thumb"><img src="assets/life/now-1.jpg" alt="" onerror="this.parentElement.classList.add('no-img')"></div>
+              <div class="photo-thumb"><img src="assets/life/now-2.jpg" alt="" onerror="this.parentElement.classList.add('no-img')"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="see-all" href="life.html">See the full story →</a>
+    </section>
+
+    <hr class="divider">
+
+    <!-- CONTACT -->
+    <section class="contact">
+      <p>Let's talk.</p>
+      <a href="mailto:will@willsjah.com">will@willsjah.com</a>
+    </section>
+
+    <footer>
+      <p>© 2025 William Sjahrial · Jakarta, Indonesia</p>
+    </footer>
+
+  </main>
+
+  <!-- MODAL -->
+  <div class="modal-overlay" id="modalOverlay" onclick="closeModalOnOverlay(event)">
+    <div class="modal" role="dialog" aria-modal="true">
+      <button class="modal-close" onclick="closeModal()" aria-label="Close">✕</button>
+      <div class="modal-img-wrap">
+        <img id="modalImg" src="" alt="" style="display:none;">
+        <div id="modalImgPlaceholder" class="modal-img-placeholder"></div>
+      </div>
+      <h2 class="modal-title" id="modalTitle"></h2>
+      <p class="modal-meta" id="modalMeta"></p>
+      <p class="modal-body" id="modalBody"></p>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

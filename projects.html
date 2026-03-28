@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects · William Sjahrial</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+
+    <div class="page-header">
+      <a href="index.html" class="back">← Back</a>
+      <h1>All Projects</h1>
+      <p>25 years of building — apps, agencies, startups, and the occasional LEGO robot.</p>
+    </div>
+
+    <!-- CURRENT -->
+    <p class="section-label">Current</p>
+    <div class="projects-grid" style="margin-bottom: 2.5rem;">
+
+      <div class="work-card" onclick="openModal('korean')">
+        <div class="card-img">
+          <img src="assets/work/korean-app.jpg" alt="Korean Speaking App" onerror="this.parentElement.classList.add('no-img')">
+        </div>
+        <div class="card-body">
+          <p class="card-title">Korean Speaking App</p>
+          <p class="card-sub">iOS · in progress</p>
+          <span class="badge">Active</span>
+        </div>
+      </div>
+
+      <div class="work-card" onclick="openModal('academy')">
+        <div class="card-img">
+          <img src="assets/work/academy.jpg" alt="Apple Developer Academy" onerror="this.parentElement.classList.add('no-img')">
+        </div>
+        <div class="card-body">
+          <p class="card-title">Apple Developer Academy</p>
+          <p class="card-sub">Mentor · Jakarta</p>
+        </div>
+      </div>
+
+      <div class="work-card" onclick="openModal('meetup')">
+        <div class="card-img">
+          <img src="assets/work/meetup.jpg" alt="Jakarta iOS + AI Meetup" onerror="this.parentElement.classList.add('no-img')">
+        </div>
+        <div class="card-body">
+          <p class="card-title">Jakarta iOS + AI Meetup</p>
+          <p class="card-sub">Organizer · since 2013</p>
+        </div>
+      </div>
+
+    </div>
+
+    <hr class="divider" style="margin: 0 0 2.5rem;">
+
+    <!-- STARTUPS & COMPANIES -->
+    <p class="section-label">Startups & companies</p>
+    <div class="projects-grid" style="margin-bottom: 2.5rem;">
+
+      <div class="work-card" onclick="openModal('port')">
+        <div class="card-img">
+          <img src="assets/work/port.jpg" alt="Port Remote" onerror="this.parentElement.classList.add('no-img')">
+        </div>
+        <div class="card-body">
+          <p class="card-title">Port Remote</p>
+          <p class="card-sub">Startup · acquired 2025</p>
+        </div>
+      </div>
+
+      <div class="work-card" onclick="openModal('mirai')">
+        <div class="card-img">
+          <img src="assets/work/mirai.jpg" alt="Mirai Technologies" onerror="this.parentElement.classList.add('no-img')">
+        </div>
+        <div class="card-body">
+          <p class="card-title">Mirai Technologies</p>
+          <p class="card-sub">Agency · acquired 2020</p>
+        </div>
+      </div>
+
+    </div>
+
+    <hr class="divider" style="margin: 0 0 2.5rem;">
+
+    <!-- INDIE APPS -->
+    <p class="section-label">Indie apps · Tokyo 2009–2014</p>
+    <div class="projects-grid" style="margin-bottom: 2.5rem;">
+
+      <div class="work-card" onclick="openModal('istart')">
+        <div class="card-img">
+          <img src="assets/work/istart.jpg" alt="iStart Language Series" onerror="this.parentElement.classList.add('no-img')">
+        </div>
+        <div class="card-body">
+          <p class="card-title">iStart Language Series</p>
+          <p class="card-sub">Apple-featured · #1 Education US</p>
+        </div>
+      </div>
+
+      <div class="work-card" onclick="openModal('wordUP')">
+        <div class="card-img">
+          <img src="assets/work/wordup.jpg" alt="WordUP" onerror="this.parentElement.classList.add('no-img')">
+        </div>
+        <div class="card-body">
+          <p class="card-title">WordUP</p>
+          <p class="card-sub">With HarperCollins Publishers</p>
+        </div>
+      </div>
+
+      <div class="work-card" onclick="openModal('kanji')">
+        <div class="card-img">
+          <img src="assets/work/kanji.jpg" alt="Remembering the Kanji" onerror="this.parentElement.classList.add('no-img')">
+        </div>
+        <div class="card-body">
+          <p class="card-title">Remembering the Kanji</p>
+          <p class="card-sub">With Nanzan Institute</p>
+        </div>
+      </div>
+
+    </div>
+
+    <hr class="divider" style="margin: 0 0 2.5rem;">
+
+    <!-- EARLY CAREER -->
+    <p class="section-label">Early career · Tokyo 2001–2008</p>
+    <div class="projects-grid" style="margin-bottom: 2.5rem;">
+
+      <div class="work-card" onclick="openModal('bowlingual')">
+        <div class="card-img">
+          <img src="assets/work/bowlingual.jpg" alt="Bowlingual" onerror="this.parentElement.classList.add('no-img')">
+        </div>
+        <div class="card-body">
+          <p class="card-title">Bowlingual</p>
+          <p class="card-sub">Takara Tomy · dog translator</p>
+        </div>
+      </div>
+
+      <div class="work-card" onclick="openModal('nfc')">
+        <div class="card-img">
+          <img src="assets/work/nfc.jpg" alt="NFC & Mobile Apps" onerror="this.parentElement.classList.add('no-img')">
+        </div>
+        <div class="card-body">
+          <p class="card-title">NFC & Mobile Apps</p>
+          <p class="card-sub">Connect Technologies · Tokyo</p>
+        </div>
+      </div>
+
+      <div class="work-card" onclick="openModal('mizuho')">
+        <div class="card-img">
+          <img src="assets/work/mizuho.jpg" alt="Mizuho Securities Tools" onerror="this.parentElement.classList.add('no-img')">
+        </div>
+        <div class="card-body">
+          <p class="card-title">Algo Trading Tools</p>
+          <p class="card-sub">Mizuho Securities · Tokyo</p>
+        </div>
+      </div>
+
+    </div>
+
+    <hr class="divider" style="margin: 0 0 2.5rem;">
+
+    <!-- PERSONAL -->
+    <p class="section-label">Personal</p>
+    <div class="projects-grid" style="margin-bottom: 2.5rem;">
+
+      <div class="work-card" onclick="openModal('miffy')">
+        <div class="card-img">
+          <img src="assets/work/miffy.jpg" alt="Miffy Moment" onerror="this.parentElement.classList.add('no-img')">
+        </div>
+        <div class="card-body">
+          <p class="card-title">Miffy Moment</p>
+          <p class="card-sub">LEGO robot · personal</p>
+        </div>
+      </div>
+
+    </div>
+
+    <footer>
+      <p>© 2025 William Sjahrial · <a href="index.html" style="color: var(--text-3); text-decoration:none;">willsjah.com</a></p>
+    </footer>
+
+  </main>
+
+  <!-- MODAL -->
+  <div class="modal-overlay" id="modalOverlay" onclick="closeModalOnOverlay(event)">
+    <div class="modal" role="dialog" aria-modal="true">
+      <button class="modal-close" onclick="closeModal()" aria-label="Close">✕</button>
+      <div class="modal-img-wrap">
+        <img id="modalImg" src="" alt="" style="display:none;">
+        <div id="modalImgPlaceholder" class="modal-img-placeholder"></div>
+      </div>
+      <h2 class="modal-title" id="modalTitle"></h2>
+      <p class="modal-meta" id="modalMeta"></p>
+      <p class="modal-body" id="modalBody"></p>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

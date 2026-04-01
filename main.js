@@ -9,7 +9,14 @@ const projects = {
     imgs: [
       "assets/work/korean-app.jpg",
       "assets/work/korean-app-2.jpg",
-      "assets/work/korean-app-3.jpg"
+      "assets/work/korean-app-3.jpg",
+      "assets/work/korean-app-4.jpg",
+      "assets/work/korean-app-5.jpg",
+      "assets/work/korean-app-6.jpg",
+      "assets/work/korean-app-7.jpg",
+      "assets/work/korean-app-8.jpg",
+      "assets/work/korean-app-9.jpg",
+      "assets/work/korean-app-10.jpg"
     ],
     body: "An app I'm building to help people practice speaking Korean conversationally. Uses AI to give real-time feedback on pronunciation and fluency. My current experiment — learning Korean and building the tool to learn it at the same time."
   },
@@ -19,7 +26,14 @@ const projects = {
     imgs: [
       "assets/work/academy.jpg",
       "assets/work/academy-2.jpg",
-      "assets/work/academy-3.jpg"
+      "assets/work/academy-3.jpg",
+      "assets/work/academy-4.jpg",
+      "assets/work/academy-5.jpg",
+      "assets/work/academy-6.jpg",
+      "assets/work/academy-7.jpg",
+      "assets/work/academy-8.jpg",
+      "assets/work/academy-9.jpg",
+      "assets/work/academy-10.jpg"
     ],
     body: "Mentoring the next generation of iOS developers at Apple Developer Academy in Jakarta. I share what I've learned from 25 years of building, shipping, and occasionally failing. Previously a student there myself in 2019 — and a WWDC Scholar."
   },
@@ -29,7 +43,14 @@ const projects = {
     imgs: [
       "assets/work/meetup.jpg",
       "assets/work/meetup-2.jpg",
-      "assets/work/meetup-3.jpg"
+      "assets/work/meetup-3.jpg",
+      "assets/work/meetup-4.jpg",
+      "assets/work/meetup-5.jpg",
+      "assets/work/meetup-6.jpg",
+      "assets/work/meetup-7.jpg",
+      "assets/work/meetup-8.jpg",
+      "assets/work/meetup-9.jpg",
+      "assets/work/meetup-10.jpg"
     ],
     body: "I started the Jakarta iOS Meetup in 2013. Over a decade later it's still going — now focused on iOS development and AI. A small, informal community of builders sharing what actually works. I also use it as a place to develop and practice my own talks."
   },
@@ -39,7 +60,14 @@ const projects = {
     imgs: [
       "assets/work/port.jpg",
       "assets/work/port-2.jpg",
-      "assets/work/port-3.jpg"
+      "assets/work/port-3.jpg",
+      "assets/work/port-4.jpg",
+      "assets/work/port-5.jpg",
+      "assets/work/port-6.jpg",
+      "assets/work/port-7.jpg",
+      "assets/work/port-8.jpg",
+      "assets/work/port-9.jpg",
+      "assets/work/port-10.jpg"
     ],
     body: "A travel tech startup for the remote era. Port lets people explore locations live through a remote guide on a video call — you instruct the guide where to go, who to talk to, what to see. Built during Covid when the world was locked down. Went through K-Startup Grand Challenge 2020 and Plug and Play Travel & Hospitality Batch 10."
   },
@@ -49,7 +77,14 @@ const projects = {
     imgs: [
       "assets/work/mirai.jpg",
       "assets/work/mirai-2.jpg",
-      "assets/work/mirai-3.jpg"
+      "assets/work/mirai-3.jpg",
+      "assets/work/mirai-4.jpg",
+      "assets/work/mirai-5.jpg",
+      "assets/work/mirai-6.jpg",
+      "assets/work/mirai-7.jpg",
+      "assets/work/mirai-8.jpg",
+      "assets/work/mirai-9.jpg",
+      "assets/work/mirai-10.jpg"
     ],
     body: "A mobile app agency I built from scratch in Jakarta after returning from Tokyo. Recruited, trained and managed a multi-disciplinary team. Delivered projects for international clients, helped clients win government grants and secure venture funding."
   },
@@ -59,7 +94,14 @@ const projects = {
     imgs: [
       "assets/work/istart.jpg",
       "assets/work/istart-2.jpg",
-      "assets/work/istart-3.jpg"
+      "assets/work/istart-3.jpg",
+      "assets/work/istart-4.jpg",
+      "assets/work/istart-5.jpg",
+      "assets/work/istart-6.jpg",
+      "assets/work/istart-7.jpg",
+      "assets/work/istart-8.jpg",
+      "assets/work/istart-9.jpg",
+      "assets/work/istart-10.jpg"
     ],
     body: "A series of language learning apps I designed and built as an indie developer in Tokyo. Featured by Apple multiple times. Reached #1 Top Grossing in the Education category on the US App Store. Collaborations included WordUP with HarperCollins Publishers, In A Day with Hodder Education, and Remembering the Kanji with Dr. James Heisig of the Nanzan Institute."
   },
@@ -68,7 +110,15 @@ const projects = {
     meta: "Connect Technologies · Tokyo · 2002 – 2007",
     imgs: [
       "assets/work/bowlingual.jpg",
-      "assets/work/bowlingual-2.jpg"
+      "assets/work/bowlingual-2.jpg",
+      "assets/work/bowlingual-3.jpg",
+      "assets/work/bowlingual-4.jpg",
+      "assets/work/bowlingual-5.jpg",
+      "assets/work/bowlingual-6.jpg",
+      "assets/work/bowlingual-7.jpg",
+      "assets/work/bowlingual-8.jpg",
+      "assets/work/bowlingual-9.jpg",
+      "assets/work/bowlingual-10.jpg"
     ],
     body: "A voice-recognition novelty app that translates dog barks into human language — built for Takara Tomy. One of several mobile projects from my early Tokyo years at Connect Technologies, where we also built NFC entry-exit systems, loyalty apps, and internet camera tools. The company went on to IPO."
   },
@@ -77,7 +127,15 @@ const projects = {
     meta: "Collaboration · Nanzan Institute · Tokyo",
     imgs: [
       "assets/work/kanji.jpg",
-      "assets/work/kanji-2.jpg"
+      "assets/work/kanji-2.jpg",
+      "assets/work/kanji-3.jpg",
+      "assets/work/kanji-4.jpg",
+      "assets/work/kanji-5.jpg",
+      "assets/work/kanji-6.jpg",
+      "assets/work/kanji-7.jpg",
+      "assets/work/kanji-8.jpg",
+      "assets/work/kanji-9.jpg",
+      "assets/work/kanji-10.jpg"
     ],
     body: "An iOS companion app based on Dr. James Heisig's famous method for learning Japanese kanji — part of the iStart series. Built in collaboration with the Nanzan Institute of Religion and Culture in Nagoya. One of the more meaningful collabs from those indie years."
   },
@@ -86,7 +144,15 @@ const projects = {
     meta: "Collaboration · HarperCollins Publishers · Tokyo",
     imgs: [
       "assets/work/wordup.jpg",
-      "assets/work/wordup-2.jpg"
+      "assets/work/wordup-2.jpg",
+      "assets/work/wordup-3.jpg",
+      "assets/work/wordup-4.jpg",
+      "assets/work/wordup-5.jpg",
+      "assets/work/wordup-6.jpg",
+      "assets/work/wordup-7.jpg",
+      "assets/work/wordup-8.jpg",
+      "assets/work/wordup-9.jpg",
+      "assets/work/wordup-10.jpg"
     ],
     body: "A language vocabulary app built in collaboration with HarperCollins Publishers. Part of the broader iStart language app series, one of several publishing partnerships from my indie iOS years in Tokyo."
   },
@@ -94,7 +160,16 @@ const projects = {
     title: "Mizuho Securities Tools",
     meta: "Software Engineer · Mizuho Securities · Tokyo · 2007 – 2008",
     imgs: [
-      "assets/work/mizuho.jpg"
+      "assets/work/mizuho.jpg",
+      "assets/work/mizuho-2.jpg",
+      "assets/work/mizuho-3.jpg",
+      "assets/work/mizuho-4.jpg",
+      "assets/work/mizuho-5.jpg",
+      "assets/work/mizuho-6.jpg",
+      "assets/work/mizuho-7.jpg",
+      "assets/work/mizuho-8.jpg",
+      "assets/work/mizuho-9.jpg",
+      "assets/work/mizuho-10.jpg"
     ],
     body: "Designed and built stock market monitoring tools and a smart alert system for the International Sales Traders team. Helped implement an algorithmic trading system connecting directly to stock exchanges. Also managed and mentored an outsourcing team."
   },
@@ -105,7 +180,13 @@ const projects = {
       "assets/work/miffy.jpg",
       "assets/work/miffy-2.jpg",
       "assets/work/miffy-3.jpg",
-      "assets/work/miffy-4.jpg"
+      "assets/work/miffy-4.jpg",
+      "assets/work/miffy-5.jpg",
+      "assets/work/miffy-6.jpg",
+      "assets/work/miffy-7.jpg",
+      "assets/work/miffy-8.jpg",
+      "assets/work/miffy-9.jpg",
+      "assets/work/miffy-10.jpg"
     ],
     body: "A LEGO telepresence robot connected to an iOS app I built — so I can remotely feed my pet bunny Miffy when I'm not home. Part practical solution, part ridiculous tinkering project. Probably the most honest thing on this site."
   },
@@ -114,7 +195,15 @@ const projects = {
     meta: "Mobile Software Development · Tokyo · 2002 – 2007",
     imgs: [
       "assets/work/nfc.jpg",
-      "assets/work/nfc-2.jpg"
+      "assets/work/nfc-2.jpg",
+      "assets/work/nfc-3.jpg",
+      "assets/work/nfc-4.jpg",
+      "assets/work/nfc-5.jpg",
+      "assets/work/nfc-6.jpg",
+      "assets/work/nfc-7.jpg",
+      "assets/work/nfc-8.jpg",
+      "assets/work/nfc-9.jpg",
+      "assets/work/nfc-10.jpg"
     ],
     body: "Early mobile projects from my time at Connect Technologies in Tokyo — entry/exit tracking using Sony FeliCa NFC, a loyalty program app for AM/PM convenience stores, internet camera monitoring, and voice recognition apps. A wide range of work that taught me to build for real constraints with real users."
   }

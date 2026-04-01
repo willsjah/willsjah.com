@@ -324,9 +324,10 @@
     <div class="modal" role="dialog" aria-modal="true">
       <button class="modal-close" onclick="closeModal()" aria-label="Close">✕</button>
       <div class="modal-img-wrap">
-        <img id="modalImg" src="" alt="" style="display:none;">
+        <img id="modalImg" src="" alt="" style="display:none; transition: opacity 0.2s ease;">
         <div id="modalImgPlaceholder" class="modal-img-placeholder"></div>
       </div>
+      <div id="modalThumbStrip" class="modal-thumb-strip"></div>
       <h2 class="modal-title" id="modalTitle"></h2>
       <p class="modal-meta" id="modalMeta"></p>
       <p class="modal-body" id="modalBody"></p>

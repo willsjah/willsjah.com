@@ -455,8 +455,8 @@ section { padding: 0; }
 }
 
 .photo-thumb {
-  width: 80px;
-  height: 60px;
+  width: 120px;
+  height: 90px;
   border-radius: var(--radius-sm);
   overflow: hidden;
   background: var(--bg-hover);

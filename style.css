@@ -306,6 +306,52 @@ section { padding: 0; }
   color: var(--text-3);
 }
 
+/* ── SPEAKING VENUES ── */
+.venue-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  margin-top: 1.5rem;
+}
+
+.venue-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.venue-card .card-img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: var(--bg-hover);
+}
+
+.venue-card .card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.venue-card .card-body {
+  padding: 12px 14px 14px;
+}
+
+.venue-card .card-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-1);
+  margin-bottom: 3px;
+  line-height: 1.35;
+}
+
+.venue-card .card-sub {
+  font-size: 12px;
+  color: var(--text-3);
+}
+
 .video-placeholder {
   margin-top: 1.5rem;
   height: 88px;
@@ -700,7 +746,7 @@ footer p {
   .hero-links { justify-content: center; }
   .hero-photo { width: 100px; height: 100px; }
   .hero-text h1 { font-size: 26px; }
-  .work-grid, .projects-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .work-grid, .projects-grid, .venue-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
   .page-header h1 { font-size: 36px; }
   .contact a { font-size: 22px; }
 }

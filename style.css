@@ -470,7 +470,15 @@ section { padding: 0; }
   display: block;
 }
 
-.photo-thumb.no-img { opacity: 0.25; }
+.photo-thumb.life-thumb {
+  cursor: pointer;
+  transition: opacity 0.15s, transform 0.15s;
+}
+
+.photo-thumb.life-thumb:hover {
+  opacity: 0.85;
+  transform: scale(1.04);
+}
 
 /* ── CONTACT ── */
 .contact {

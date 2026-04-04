@@ -209,6 +209,28 @@ const projects = {
   }
 };
 
+// ── LIFE PHOTO MODAL ──────────────────────────────────────────
+function openLifeModal(src, place, period) {
+  document.getElementById('modalTitle').textContent = place;
+  document.getElementById('modalMeta').textContent = period;
+  document.getElementById('modalBody').textContent = '';
+
+  const img = document.getElementById('modalImg');
+  const strip = document.getElementById('modalThumbStrip');
+
+  img.style.opacity = '0';
+  img.src = src;
+  img.style.display = 'block';
+  img.onload = () => { img.style.opacity = '1'; };
+  img.onerror = () => { img.style.display = 'none'; };
+
+  strip.innerHTML = '';
+  strip.style.display = 'none';
+
+  document.getElementById('modalOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
 // ── MODAL ─────────────────────────────────────────────────────
 let currentImgs = [];
 let currentIndex = 0;
